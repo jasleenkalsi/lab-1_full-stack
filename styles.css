@@ -1,0 +1,105 @@
+/* Base / resets */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: Arial, Helvetica, sans-serif; /* requirement: at least a font-family */
+  background: #f7f9fc;
+  color: #223;
+  line-height: 1.6;
+}
+
+/* Header + Nav */
+.site-header {
+  background: #0a355e;
+  color: #fff;
+}
+.top-nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+.brand img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Header greeting */
+.hero {
+  text-align: center;
+  padding: 1.75rem 1rem 2.25rem;
+  background: linear-gradient(0deg, #0a355e 0%, #0f4a87 100%);
+}
+.hero h1 { margin: 0 0 0.35rem; }
+
+/* Main */
+main {
+  max-width: 1000px;
+  margin: 1.5rem auto 2rem;
+  padding: 0 1rem;
+}
+.page-heading {
+  color: #0a355e;
+  border-bottom: 2px solid #0a355e;
+  padding-bottom: .5rem;
+  margin-bottom: 1rem;
+}
+
+/* Each department “card” — required: border around each new-product */
+.new-product {
+  background: #fff;
+  border: 2px solid #c9d6ea;      /* requirement: visible border */
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,.06);
+}
+.new-product h4 {
+  margin: 0 0 .6rem;
+  color: #0a355e;
+}
+.new-product ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.new-product li { margin: .2rem 0; }
+
+/* Organization section (simple placeholder style) */
+.organization {
+  margin-top: 2rem;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #0a355e;
+  color: #fff;
+  padding: 1rem;
+}
