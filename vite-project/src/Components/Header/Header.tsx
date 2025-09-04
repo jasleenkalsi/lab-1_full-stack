@@ -1,3 +1,4 @@
+
 export default function Header() {
   return (
     <header className="site-header text-center p-4 bg-gray-100">
